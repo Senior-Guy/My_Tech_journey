@@ -1,6 +1,6 @@
 # My Tech Journey
 
-This repository is my Python learning space. I’m documenting my progress as I build foundational programming skills with hands-on exercises, small projects, and logic-based challenges.
+This repository is my Python learning space. I’m documenting my progress as I build foundational programming skills with hands-on exercises, small projects, and API development.
 
 ## Purpose
 
@@ -12,8 +12,9 @@ I’m practicing:
 - functions and reusable code
 - validation and input checking
 - problem-solving with small real-world scenarios
+- building basic APIs with FastAPI
 
-## Included Labs
+## Included Projects
 
 ### 1st labwork.py
 A practical exercise using conditional logic to decide if a trip is possible based on distance, weather, and available transport.
@@ -21,24 +22,26 @@ A practical exercise using conditional logic to decide if a trip is possible bas
 ### 2nd Lab.py
 A small character creation function with validation rules for name length, stats, and total score constraints.
 
-## How to Run
+### 1st_fastapi.py
+My first FastAPI project — a simple Student Management API.
 
+**What it does:**
+- `GET /` → Returns a welcome message
+- `GET /get-student/{student_id}` → Get a student by ID
+- `GET /get-by-name/{student_id}` → Search student by name
+- `POST /create-student/{student_id}` → Create a new student
+- `PUT /update-student/{student_id}` → Update student details
+- `DELETE /delete-student/{student_id}` → Delete a student
+
+**Technologies used:**
+- FastAPI
+- Pydantic (for data validation)
+- Path parameters and optional query parameters
+  
+## How to Run
+uvicorn 1st_fastapi:app --reload
+
+### Basic Python scripts
 ```bash
 python "1st labwork.py"
 python "2nd Lab.py"
-```
-
-## Learning Focus
-
-- Python basics
-- logical thinking
-- structured problem solving
-- clean function design
-- beginner-level software development habits
-
-## Next Goals
-
-- improve code readability
-- build more practical Python tools
-- expand into automation and API work
-- continue learning by creating portfolio-ready projects
