@@ -1,0 +1,6 @@
+Mean, median, mode, variance, standard deviation, correlation.
+Series and DataFrames, read_csv, head, info, describe.
+Selecting with loc and iloc, filtering rows, sorting.
+Missing values: isna, fillna, dropna.
+groupby, merge, apply, and creating new columns.
+Use the Titanic dataset for all of it.
