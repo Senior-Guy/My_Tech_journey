@@ -1,0 +1,4 @@
+requests: GET and POST, status codes, headers, query parameters, parsing JSON responses.
+Keep API keys in environment variables, never in your code or on GitHub.
+Call a free public API that needs no key (such as Open-Meteo for weather) and load the result into a DataFrame.
+Call an LLM API from a script: send a prompt, read the reply, handle errors and rate limits.
