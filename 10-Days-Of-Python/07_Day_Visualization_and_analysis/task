@@ -1,0 +1,4 @@
+Matplotlib basics: figures, axes, labels, titles, saving.
+Histograms, scatter plots, bar charts, box plots.
+Seaborn: pairplot, correlation heatmap, countplot.
+Pick a second dataset (the Palmer Penguins or California housing data both work) and explore it.
