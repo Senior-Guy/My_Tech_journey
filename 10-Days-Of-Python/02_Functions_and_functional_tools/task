@@ -1,0 +1,5 @@
+Functions: default arguments, *args, **kwargs, return values, scope.
+Modules: write your own utils.py and import it from another file.
+List, dict and set comprehensions (rewrite 5 of your old for loops as comprehensions).
+lambda, map, filter, reduce, sorted(key=...).
+Closures and a basic decorator.
