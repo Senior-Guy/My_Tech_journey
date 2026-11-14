@@ -1,0 +1,5 @@
+Arrays, dtype, shape, reshape, arange, linspace, zeros, ones.
+Indexing, slicing, boolean masks.
+Broadcasting rules and vectorized operations (no loops).
+Axis operations: sum(axis=0), mean(axis=1), plus dot and @.
+np.random with a seed.
