@@ -1,0 +1,4 @@
+Classes: __init__, instance methods, class attributes, __repr__.
+Inheritance and super(). This is how PyTorch models and scikit-learn estimators are built.
+pip freeze > requirements.txt, and recreating an environment from that file.
+Start a Git repo for your learning work and commit what you’ve done so far.
