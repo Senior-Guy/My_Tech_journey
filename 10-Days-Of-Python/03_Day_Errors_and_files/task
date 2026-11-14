@@ -1,0 +1,7 @@
+try/except/else/finally, raising errors, and writing a custom exception.
+Reading and writing .txt, .csv (with the csv module) and .json files.
+datetime: parse strings into dates, subtract dates, format output.
+Regex basics: search, findall, sub, and common patterns (emails, numbers, dates).
+Make a messy CSV by hand (inconsistent dates, stray spaces, blank rows) to practice on.
+
+Goal for the end of the day: a script that reads the messy CSV, cleans it with regex and datetime, survives bad rows without crashing (logging them instead), and writes a clean JSON file.
