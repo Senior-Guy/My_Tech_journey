@@ -1,0 +1,5 @@
+train_test_split, and why you never evaluate on training data.
+LinearRegression and LogisticRegression, then DecisionTreeClassifier and RandomForestClassifier.
+Metrics: accuracy, precision, recall, confusion matrix; MSE and R² for regression.
+StandardScaler and a Pipeline, plus cross_val_score.
+Compute a baseline first (predicting the majority class).
