@@ -1,0 +1,6 @@
+Pick a dataset. Scikit-learn’s built-in breast cancer dataset is a good fit if you want something biology-flavored, or choose any small dataset from Kaggle or UCI.
+Load and clean it with pandas.
+Explore it with at least 3 plots.
+Train and compare at least 2 models inside a Pipeline.
+Write up the results and what you’d improve.
+Push it all to GitHub.
